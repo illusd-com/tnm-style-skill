@@ -1,0 +1,182 @@
+/* ============================================================
+   TNM Style CSS
+   新細明體 + 乾淨白底 + 黑按鈕 + 直球髒話風格
+   純視覺資源，不含任何主題內容
+   ============================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "PMingLiU", "新細明體", "MingLiU", "Microsoft JhengHei", serif;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 30px 20px 40px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 680px;
+  width: 100%;
+}
+
+/* 標題 */
+h1 {
+  font-size: 2.1rem;
+  font-weight: normal;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* 區塊 */
+.section {
+  text-align: left;
+  margin: 0 auto 28px;
+  max-width: 520px;
+  font-size: 1.05rem;
+}
+
+.section h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+.section p {
+  margin-bottom: 12px;
+}
+
+/* 強調 */
+.highlight {
+  background: #fff3cd;
+  padding: 2px 4px;
+}
+
+/* 主按鈕（黑底白字） */
+.btn-primary,
+.btn-annoy {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 16px 36px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.1s, background 0.2s;
+  margin: 10px 0 8px;
+}
+
+.btn-primary:hover,
+.btn-annoy:hover {
+  background: #333;
+}
+
+.btn-primary:active,
+.btn-annoy:active {
+  transform: scale(0.97);
+}
+
+/* Discord 風格按鈕 */
+.btn-discord {
+  display: inline-block;
+  background: #5865F2;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 26px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  margin: 18px 0;
+  transition: background 0.2s;
+}
+
+.btn-discord:hover {
+  background: #4752C4;
+}
+
+/* 情緒宣洩區（左邊黑線） */
+.rant {
+  background: #f8f8f8;
+  border-left: 4px solid #111;
+  padding: 14px 16px;
+  margin: 16px 0;
+  font-size: 0.98rem;
+}
+
+/* 標籤 */
+.tag {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+  border-radius: 3px;
+}
+
+/* 計數 / 元資訊 */
+.counter {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.counter-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 36px;
+}
+
+/* 頁尾 */
+.footer {
+  margin-top: 20px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
+.copyright {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 18px;
+}
+
+/* 表情 / 動態區 */
+.emoji-area {
+  font-size: 3.2rem;
+  min-height: 70px;
+  margin: 14px 0 18px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.emoji-area.show {
+  opacity: 1;
+}
