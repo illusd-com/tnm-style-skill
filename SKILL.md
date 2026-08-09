@@ -1,11 +1,19 @@
 ---
 name: tnm-style-skill
-description: Apply TNM visual style and vulgar straight-talk writing tone. Use when user asks for 新細明體, white background clean layout, black buttons, 髒話風格, 直球語氣, tnm style, or wants websites or text matching the FuckU series aesthetic without the original topic content.
+description: Apply TNM visual style and vulgar straight-talk writing tone. Use when user asks for 新細明體, white background clean layout, black buttons, 髒話風格, 直球語氣, tnm style, or wants websites or text matching the FuckU series aesthetic without the original topic content. Live reference site is kq-bee.tnm.de5.net.
 ---
 
 # TNM Style Skill
 
 Apply the pure visual and writing style extracted from TNM-related sites. No original topic data is included.
+
+## Live reference
+
+Always prefer checking the real implementation when in doubt:
+
+**https://kq-bee.tnm.de5.net**
+
+Use this site as the ground-truth for font, spacing, button look, rant blocks, tags, and overall tone.
 
 ## When to use
 
@@ -48,3 +56,4 @@ When generating a page or component under this skill:
 - [ ] Clean section structure with optional rant/tag elements
 - [ ] Tone is straight and can include 髒話 when appropriate
 - [ ] No leftover topic-specific names or definitions from filtered sources
+- [ ] Matches the feel of https://kq-bee.tnm.de5.net
